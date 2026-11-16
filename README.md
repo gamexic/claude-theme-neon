@@ -24,6 +24,26 @@ En la app de escritorio, donde `/plugin` no funciona: haz clic en **+** junto a 
 
 Usa un solo tema a la vez: otro mod que cambie el tema reemplaza a este.
 
+## Preguntas frecuentes
+
+**¿Sobrevive si reinicio la app o el computador?** Sí. Con el alcance de usuario queda guardado en tu configuración de Claude Code y se aplica solo en cada sesión nueva, en cualquier proyecto, aunque cierres la app, reinicies o actualices.
+
+**Lo instalé y no lo veo.** Cierra la app por completo (⌘Q en Mac) y ábrela de nuevo, y abre un chat nuevo en la pestaña Code. Si el fondo animado no aparece, envía un mensaje cualquiera.
+
+**¿Funciona en la terminal?** No: la terminal no dibuja temas ni fondos. Se ve en la app de escritorio y en la app móvil.
+
+**¿Cómo lo quito?** En la app de escritorio, desactívalo o desinstálalo desde **Manage plugins**. Desde una shell:
+
+```
+claude plugin uninstall neon-nocturno@claude-theme-neon
+```
+
+**¿Cómo recibo actualizaciones?** Desde una shell:
+
+```
+claude plugin marketplace update claude-theme-neon
+```
+
 ## Personalizar
 
 - Colores: `hooks/register.tsx`.
