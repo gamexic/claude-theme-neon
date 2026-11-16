@@ -1,0 +1,5 @@
+{
+  "name": "claude-theme-neon",
+  "owner": { "name": "gamexic" },
+  "plugins": [{ "name": "neon-nocturno", "source": "./" }]
+}
