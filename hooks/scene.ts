@@ -91,7 +91,7 @@ export const SCENE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} 
 @keyframes d2{from{transform:translate(0,0) scale(1.1)}to{transform:translate(-180px,60px) scale(.95)}}
 @keyframes d3{from{transform:translate(0,0)}to{transform:translate(90px,-80px)}}
 .tw{animation-name:tw;animation-timing-function:ease-in-out;animation-iteration-count:infinite}
-@keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes tw{0%,100%{opacity:.45}50%{opacity:1}}
 .big{filter:url(#soft)}
 .spark{animation:spark 5s ease-in-out infinite;opacity:0}
 @keyframes spark{0%,100%{opacity:0}45%,55%{opacity:1}}
@@ -124,10 +124,10 @@ export const SCENE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} 
 <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0" stop-color="#03020a"/><stop offset=".55" stop-color="#0a0720"/><stop offset="1" stop-color="#12062a"/>
 </linearGradient>
-<radialGradient id="gb"><stop offset="0" stop-color="#2f6bff" stop-opacity=".55"/><stop offset="1" stop-color="#2f6bff" stop-opacity="0"/></radialGradient>
-<radialGradient id="gp"><stop offset="0" stop-color="#a23bff" stop-opacity=".5"/><stop offset="1" stop-color="#a23bff" stop-opacity="0"/></radialGradient>
-<radialGradient id="gc"><stop offset="0" stop-color="#00e5ff" stop-opacity=".28"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
-<radialGradient id="gm"><stop offset="0" stop-color="#ff4fd8" stop-opacity=".22"/><stop offset="1" stop-color="#ff4fd8" stop-opacity="0"/></radialGradient>
+<radialGradient id="gb"><stop offset="0" stop-color="#2f6bff" stop-opacity=".7"/><stop offset="1" stop-color="#2f6bff" stop-opacity="0"/></radialGradient>
+<radialGradient id="gp"><stop offset="0" stop-color="#a23bff" stop-opacity=".65"/><stop offset="1" stop-color="#a23bff" stop-opacity="0"/></radialGradient>
+<radialGradient id="gc"><stop offset="0" stop-color="#00e5ff" stop-opacity=".38"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="gm"><stop offset="0" stop-color="#ff4fd8" stop-opacity=".32"/><stop offset="1" stop-color="#ff4fd8" stop-opacity="0"/></radialGradient>
 <linearGradient id="trail" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0" stop-color="#7fe9ff" stop-opacity="0"/><stop offset="1" stop-color="#ffffff" stop-opacity="1"/>
 </linearGradient>

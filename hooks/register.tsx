@@ -26,7 +26,7 @@ const { theme, problems } = makeColors({
 
 const LOOK: ThemeSetArgs = {
   colors: theme,
-  backdrop: { scene: 'neon-nocturno', glass: { blur: 18, tint: '#0b0a1a', opacity: 0.55 } },
+  backdrop: { scene: 'neon-nocturno', glass: { blur: 6, tint: '#0b0a1a', opacity: 0.32 } },
   overrideColorScheme: 'dark',
 }
 
